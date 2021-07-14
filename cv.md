@@ -22,4 +22,4 @@ _Graduated from the Russian State Agrarian Correspondence University in 2009._
 
 _Currently I work in Belzhd._
  
-__2021__
+__05.07.2021__
