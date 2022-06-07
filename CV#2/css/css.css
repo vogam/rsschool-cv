@@ -1,6 +1,115 @@
 @import url(reset.css);
 
-
+html{
+   height: 100%;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background: #C8C8C8;
+}
+.summary{
+    margin-top: 100px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px #F3F3F3;
+    padding: 5px 10px 5px 10px;
+}
+.bialov{
+    display: flex;
+    justify-content: flex-start;
+}
+.name{
+    margin-left: 150px;
+}
+.name h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #9A0202;
+}
+.name p:nth-child(2){
+    margin-top: 40px;
+}
+.name p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    line-height: 30px;
+}
+.name p span{
+    font-style: italic;
+    font-weight: 400;    
+    margin-left: 10px;
+}
+.about-me h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #9A0202;
+    text-align: center;
+    margin-top: 50px;
+}
+.about-me p{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E6E6E;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.education h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin-top: 30px;
+}
+.education p{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E6E6E;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+/*-------------footer--------------*/
+.footer-flex{
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+}
+.footer-flex div:nth-child(n+2){
+    margin-left: 200px;
+}
+.git a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    display: block;
+    margin-top: 10px;
+}
+.you-tube a{
+    color: #BE0D00;
+    font-size: 30px;
+}
 
 
 
