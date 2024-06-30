@@ -13,4 +13,4 @@ _My goal is to learn web development. There is knowledge of HTML and CSS._
 _Graduated from the Russian State Agrarian Correspondence University in 2009._
 _Currently I work at the railway._
 
-[GitHub](https://github.com/vogam/rsschool-cv/tree/gh-pages?tab=readme-ov-file)
+[GitHub](https://github.com/vogam/rsschool-cv)
